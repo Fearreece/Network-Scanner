@@ -28,12 +28,12 @@ Export Options – Save results as CSV or JSON.
 
 🖼️ Screenshots
 
-(https://github.com/Fearreece/Network-Scanner/blob/master/Screenshot%202025-09-09%20141515.png?raw=true)
+![image alt](https://github.com/Fearreece/Network-Scanner/blob/master/Screenshot%202025-09-09%20141515.png?raw=true)
 
 ⚙️ Installation
 
 1. Clone this repository:
-    a. git clone https://github.com/your-username/responsive-siem-scanner.git
+    a. git clone https://github.com/Fearreece/Network-Scanner'
     b. cd responsive-siem-scanner
 
 2. Install required dependencies:
