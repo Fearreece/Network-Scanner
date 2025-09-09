@@ -1,0 +1,92 @@
+Responsive Network Scanner (Threaded + Themed GUI)
+
+A multi-threaded port scanner with a responsive Tkinter-based GUI, built-in service detection, banner grabbing, and visual analytics. The tool is designed with themes (Matrix & Enterprise), real-time charts, and export functionality for results.
+
+🚀 Features
+
+Threaded Port Scanning – Scan multiple ports efficiently with adjustable speed (Slow, Normal, Aggressive).
+
+Modes – Single port or port range scanning.
+
+Service Detection – Maps common ports to known services, with banner grabbing for extra insight.
+
+Vulnerability Hints – Basic security recommendations for high-risk services (FTP, Telnet, SMB, RDP).
+
+Interactive GUI
+
+Dark (Matrix) and Light (Enterprise) themes.
+
+Real-time Treeview results table.
+
+Pie chart (status distribution) & Bar chart (most common services).
+
+KPIs for total, open, closed, and vulnerable ports.
+
+Pause, Resume, and Stop scanning controls.
+
+Export Options – Save results as CSV or JSON.
+
+🖼️ Screenshots
+
+
+
+⚙️ Installation
+
+1. Clone this repository:
+    a. git clone https://github.com/your-username/responsive-siem-scanner.git
+    b. cd responsive-siem-scanner
+
+2. Install required dependencies:
+    a. pip install matplotlib
+    note - (Tkinter comes pre-installed with Python on most systems. If not, install via your package manager.)
+
+▶️ Usage
+
+Run the scanner with:
+    python scanner.py
+
+Steps:
+
+1. Enter the Target Host/IP.
+
+2. Choose Mode: Single port or Range.
+
+3. Enter port(s).
+
+4. Select Speed (Slow / Normal / Aggressive).
+
+5. Click Start.
+
+6. Monitor results in the live-updating table and charts.
+
+7. Export results as CSV or JSON when done.
+
+📊 Example Output
+
+Open ports highlighted in green.
+
+Closed ports in gray.
+
+Errors in orange.
+
+Pie chart: Distribution of open/closed/error ports.
+Bar chart: Top 6 most common services detected.
+
+🔒 Disclaimer
+
+This tool is intended for educational and authorized security testing purposes only.
+Do not use it against systems you don’t own or have explicit permission to test.
+
+🛠️ Tech Stack
+
+Python 3
+
+Tkinter (GUI)
+
+ThreadPoolExecutor (Concurrency)
+
+Matplotlib (Data Visualization)
+
+📄 License
+
+MIT License – free to use and modify.
