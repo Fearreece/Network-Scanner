@@ -1,8 +1,8 @@
-Responsive Network Scanner (Threaded + Themed GUI)
+**Responsive Network Scanner (Threaded + Themed GUI)**
 
 A multi-threaded port scanner with a responsive Tkinter-based GUI, built-in service detection, banner grabbing, and visual analytics. The tool is designed with themes (Matrix & Enterprise), real-time charts, and export functionality for results.
 
-🚀 Features
+**🚀 Features**
 
 Threaded Port Scanning – Scan multiple ports efficiently with adjustable speed (Slow, Normal, Aggressive).
 
@@ -26,11 +26,11 @@ Pause, Resume, and Stop scanning controls.
 
 Export Options – Save results as CSV or JSON.
 
-🖼️ Screenshots
+**🖼️ Screenshots**
 
 ![Image Alt](https://github.com/Fearreece/Network-Scanner/blob/b8e7343a1a5ffa634da7cbc053fdbab07a63d275/Screenshot%202025-09-09%20144850.png)
 
-⚙️ Installation
+**⚙️ Installation**
 
 1. Clone this repository:
     a. git clone https://github.com/Fearreece/Network-Scanner
@@ -40,12 +40,12 @@ Export Options – Save results as CSV or JSON.
     a. pip install matplotlib
     note - (Tkinter comes pre-installed with Python on most systems. If not, install via your package manager.)
 
-▶️ Usage
+**▶️ Usage**
 
 Run the scanner with:
     python scanner.py
 
-Steps:
+**Steps:**
 
 1. Enter the Target Host/IP.
 
@@ -61,7 +61,7 @@ Steps:
 
 7. Export results as CSV or JSON when done.
 
-📊 Example Output
+**📊 Example Output**
 
 Open ports highlighted in green.
 
@@ -72,12 +72,12 @@ Errors in orange.
 Pie chart: Distribution of open/closed/error ports.
 Bar chart: Top 6 most common services detected.
 
-🔒 Disclaimer
+**🔒 Disclaimer**
 
 This tool is intended for educational and authorized security testing purposes only.
 Do not use it against systems you don’t own or have explicit permission to test.
 
-🛠️ Tech Stack
+**🛠️ Tech Stack**
 
 Python 3
 
