@@ -28,7 +28,7 @@ Export Options – Save results as CSV or JSON.
 
 🖼️ Screenshots
 
-
+![image alt](https://github.com/Fearreece/Network-Scanner/blob/master/Screenshot%202025-09-09%20141515.png?raw=true)
 
 ⚙️ Installation
 
@@ -86,7 +86,3 @@ Tkinter (GUI)
 ThreadPoolExecutor (Concurrency)
 
 Matplotlib (Data Visualization)
-
-📄 License
-
-MIT License – free to use and modify.
