@@ -34,7 +34,7 @@ Export Options – Save results as CSV or JSON.
 
 1. Clone this repository:
     a. git clone https://github.com/Fearreece/Network-Scanner
-    b. cd responsive-siem-scanner
+    b. cd Network-Scanner
 
 2. Install required dependencies:
     a. pip install matplotlib
